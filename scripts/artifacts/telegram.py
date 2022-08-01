@@ -8,7 +8,7 @@ from teleparser_shim import parse_cache_db
 
 __artifacts__ = {
     "Telegram": (
-        "CacheDB",
+        "Telegram cache4.db",
         ("*/org.telegram.messenger/files/cache4.db*"),
         parse_cache_db,
     )
